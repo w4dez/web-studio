@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <h2>WebStudio</h2>
-      <nav>
+      <h2 class="logo_1"><span>Web</span>Studio</h2>
+      <nav class="nav_links">
         <ul>
-          <li><a href="/">Студія</a></li>
-          <li><a href="/">Портфоліо</a></li>
-          <li><a href="/">Контакти</a></li>
+          <li class="link_studio"><a href="#">Студія</a></li>
+          <li class="link_portfolio"><a href="./portfolio.html">Портфоліо</a></li>
+          <li class="link_contacs"><a href="#">Контакти</a></li>
         </ul>
       </nav>
-      <div>
-        <li><a href="/">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <div class="div_link">
+        <li class="link_email">
+          <a href="#">info@devstudio.com</a>
+        </li>
+        <li class="link_tel">
+          <a href="#">+38 096 111 11 11</a>
+        </li>
       </div>
     </header>
     <main>
       <section class="primo">
-        <h2>
+        <h2 class="big_text">
           Eфективні рішення для <br />
           вашого бізнесу
         </h2>
@@ -32,32 +37,32 @@
       <section class="about"></section>
       <ul>
         <li>
-          <h2>УВАГА ДО ДЕТАЛЕЙ</h2>
-          <p>
+          <h2 class="about_1">УВАГА ДО ДЕТАЛЕЙ</h2>
+          <p class="about_p1">
             Lorem ipsum dolor sit amet, consectetur <br />
             adipisicing elit. Voluptatem veritatis <br />
             exercitationem velit magnam iure.
           </p>
         </li>
         <li>
-          <h2>ПУНКТУАЛЬНІСТЬ</h2>
-          <p>
+          <h2 class="about_2">ПУНКТУАЛЬНІСТЬ</h2>
+          <p class="about_p2">
             Lorem ipsum dolor sit amet, consectetur <br />
             adipisicing elit. Voluptatem veritatis <br />
             exercitationem velit magnam iure.
           </p>
         </li>
         <li>
-          <h2>ПЛАНУВАННЯ</h2>
-          <p>
+          <h2 class="about_3">ПЛАНУВАННЯ</h2>
+          <p class="about_p3">
             Lorem ipsum dolor sit amet, consectetur <br />
             adipisicing elit. Voluptatem veritatis <br />
             exercitationem velit magnam iure.
           </p>
         </li>
         <li>
-          <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-          <p>
+          <h2 class="about_4">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+          <p class="about_p4">
             Lorem ipsum dolor sit amet, consectetur <br />
             adipisicing elit. Voluptatem veritatis <br />
             exercitationem velit magnam iure.
@@ -66,50 +71,46 @@
       </ul>
       <section class="about us">
         <div class="container">
-          <h2>Чим ми займаємося</h2>
-          <img src="./img/img.svg" alt="writing" />
-          <img src="./index.html" alt="working" />
-          <img src="./img/index (1).html" alt="looking" />
+          <h2 class="aboutus_text">Чим ми займаємося</h2>
+          <img class="img_1" src="./img/1aboutus.svg" alt="writing" />
+          <img class="img_2" src="./img/2aboutus.svg" alt="working" />
+          <img class="img_3" src="./img/3aboutus.svg" alt="looking" />
         </div>
       </section>
-      <section class="our team">
-        <h2>Наша Команда</h2>
+      <section class="our_team">
+        <h2 class="team_text">Наша Команда</h2>
         <ul>
-          <li>
-            <img src="./img/igor.svg" alt="photo of igor" />
-            <h3>Ігор Дем’яненко</h3>
-            <h4>Product Designer</h4>
+          <li class="card_igor">
+            <img class="img_4" src="./img/igor.svg" alt="photo of igor" />
+            <h3 class="name_1">Ігор Дем’яненко</h3>
+            <h4 class="role_1">Product Designer</h4>
           </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="./img/olga.svg" alt="photo of olga" />
-            <h3>Ольга Репіна</h3>
-            <h4>Frontend Developer</h4>
+          <li class="card_olga">
+            <img class="img_5" src="./img/olga.svg" alt="photo of olga" />
+            <h3 class="name_2">Ольга Репіна</h3>
+            <h4 class="role_2">Frontend Developer</h4>
           </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="./img/mukola.svg" alt="photo of mukola" />
-            <h3>Микола Тарасов</h3>
-            <h4>Marketing</h4>
+          <li class="card_mukola">
+            <img class="img_6" src="./img/mukola.svg" alt="photo of mukola" />
+            <h3 class="name_3">Микола Тарасов</h3>
+            <h4 class="role_3">Marketing</h4>
           </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="./img/misha.svg" alt="photo of misha" />
-            <h3>Михайло Єрмаков</h3>
-            <h4>UI Designer</h4>
+          <li class="card_misha">
+            <img class="img_7" src="./img/misha (2).svg" alt="photo of misha" />
+            <h3 class="name_4">Михайло Єрмаков</h3>
+            <h4 class="role_4">UI Designer</h4>
           </li>
         </ul>
       </section>
       <footer>
-        <h2>WebStudio</h2>
-        <address>
+        <h2 class="logo_2">Web <span>Studio</span></h2>
+        <address">
           <ul>
-            <li><a href="/"></a>м. Київ, пр-т Лесі Українки, 26</li>
-            <li><a href="/"></a>info@example.com</li>
-            <li><a href="tel+380991111111">+38 099 111 11 11</a></li>
+            <li class="link_addres">
+              <a href="#"></a>м. Київ, пр-т Лесі Українки, 26
+            </li>
+            <li class="link_email2"><a href="#"></a>info@example.com</li>
+            <li class="link_tel2"><a href="#">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </footer>
