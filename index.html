@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -15,23 +15,25 @@
   </head>
   <body>
     <header>
-      <h2 class="logo_1"><span>Web</span>Studio</h2>
-      <nav class="nav_links">
-        <ul>
-          <li class="link_studio"><a href="#">Студія</a></li>
-          <li class="link_portfolio">
-            <a href="./portfolio.htmlgit ">Портфоліо</a>
-          </li>
-          <li class="link_contacs"><a href="#">Контакти</a></li>
-        </ul>
-      </nav>
-      <div class="div_link">
-        <li class="link_email">
-          <a href="#">info@devstudio.com</a>
-        </li>
-        <li class="link_tel">
-          <a href="#">+38 096 111 11 11</a>
-        </li>
+      <div class="container">
+        <div class="header_block">
+          <div class="header_left">
+            <h2 class="logo_1"><span>Web</span>Studio</h2>
+            <nav class="nav_links">
+              <ul class="header_links">
+                <li class="link_studio"><a href="#">Cтудія</a></li>
+                <li class="link_portfolio">
+                  <a href="./portfolio.htmlgit ">Портфоліо</a>
+                </li>
+                <li class="link_contacs"><a href="#">Контакти</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header_tel">
+            <a href="#">info@devstudio.com</a>
+            <a href="#">+38 096 111 11 11</a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -43,7 +45,7 @@
         <button>Замовити послугу</button>
       </section>
       <section class="about"></section>
-      <ul>
+      <ul class="information">
         <li>
           <h2 class="about_1">УВАГА ДО ДЕТАЛЕЙ</h2>
           <p class="about_p1">

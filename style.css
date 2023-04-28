@@ -1,3 +1,23 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header_block {
+  display: flex;
+  justify-content: space-between;
+}
+.header_left {
+  justify-content: space-between;
+  display: flex;
+  width: 520px;
+  align-items: center;
+}
+.header_tel {
+  justify-content: space-between;
+  display: flex;
+  width: 310px;
+  align-items: center;
+}
 .logo_1 {
   font-family: "Raleway";
   font-style: normal;
@@ -17,7 +37,16 @@ span {
   color: #000000;
 }
 .nav_links {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
   text-decoration: none;
+  list-style-type: none;
+}
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
 }
 .nav_links a:hover {
   color: #2196f3;
@@ -49,7 +78,7 @@ span {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.div_links a:hover {
+.div_tel a:hover {
   color: #2196f3;
 }
 .link_email {
@@ -71,9 +100,15 @@ span {
   color: #212121;
 }
 .primo {
+  display: flex;
   background-color: #2f303a;
+  align-items: stretch;
+  height: 600px;
 }
 .big_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   font-family: "Roboto";
   font-size: 44px;
   color: #ffffff;
@@ -86,6 +121,10 @@ span {
   text-transform: uppercase;
 }
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -96,6 +135,11 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: #2196f3;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .about_1 {
   font-family: "Roboto";
