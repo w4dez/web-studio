@@ -151,14 +151,7 @@ button {
 .picture {
   display: flex;
   justify-content: center;
-  margin: 95px 0px 30px 0px;
   align-items: center;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-.picture div {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -167,7 +160,6 @@ button {
 .information {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 1170px;
   margin: 95px auto;
   letter-spacing: 0.03em;
@@ -256,6 +248,8 @@ button {
   list-style-type: none;
 }
 .names_ourt {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -269,9 +263,11 @@ button {
   object-fit: cover;
 }
 .roles_ourt {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
-  line-height: 19px;
   font-size: 16px;
+  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -315,8 +311,9 @@ button {
   fill: #ffff;
 }
 .clients {
-  margin-top: 130px;
-  margin-bottom: 100px;
+  padding: 94px 0;
+  width: 1170px;
+  margin: 0px auto;
 }
 .clients h2 {
   font-family: "Roboto";
@@ -327,27 +324,23 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
 }
 .clientsvg a {
-  display: block;
-  box-sizing: border-box;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  margin: 0 30px;
-  padding: 25px 60px;
-  width: 170px;
-  height: 93px;
-}
-.clientsvg {
   display: flex;
-  width: 1170px;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.clientsvg a:hover {
-  color: #2196f3;
+.clientsvg {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+a:hover {
+  border-color: #2196f3;
 }
 footer {
   background-color: #2f303a;
@@ -356,10 +349,9 @@ footer {
 .logo_2 {
   font-family: "Raleway";
   color: white;
-  margin: 0;
+
   letter-spacing: 0.03em;
   width: 145px;
-  margin: 0;
 }
 span {
   color: #2196f3;
@@ -388,7 +380,6 @@ address {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin: 20px 0;
   font-style: normal;
 }
 li {
@@ -402,9 +393,12 @@ a {
 a:hover {
   color: #2196f3;
 }
+footer .container {
+  gap: 70px;
+  display: flex;
+}
 .join {
-  margin: 0px 315px;
-  margin-top: -150px;
+  margin-top: 15px;
 }
 .join h3 {
   font-family: "Roboto";
